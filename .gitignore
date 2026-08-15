@@ -1,0 +1,19 @@
+# Obsidian workspace 配置与缓存
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 数据输出（拉取的行情 CSV 等，不入库）
+/data/
+data/
+
+# 系统
+Thumbs.db
+Desktop.ini
+.DS_Store
