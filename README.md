@@ -2,7 +2,7 @@
 
 **English** | [中文](README.zh.md)
 
-**Wealth (Wei Er Si)** · One-person-firm **information index library**.
+**Wealth (Wei Er Si)** · an open-source **information index library**.
 
 **License: MIT**
 
@@ -12,7 +12,7 @@
 
 ## What it is
 
-An **index of where information lives** for the Wealth one-person firm. Its job is **navigation**: given a topic, point to the authoritative source and the local archive — never to reproduce the material here.
+An **index of where information lives** for the Wealth firm. Its job is **navigation**: given a topic, point to the authoritative source and the local archive — never to reproduce the material here.
 
 **Core idea: index the location, not the content.**
 
@@ -79,6 +79,10 @@ python scripts/fetch_a股.py 600519 20250101 20260814 qfq    # auto-select avail
 Output CSV to `data/` and print the first 5 rows)Skip.
 
 ---
+
+## Acknowledgements
+
+The free A-share historical-data script in this repo is built on **akshare** — an excellent MIT-licensed open-source financial-data library by **akfamily**. Many thanks to its maintainers and contributors. https://github.com/akfamily/akshare
 
 ## License
 
