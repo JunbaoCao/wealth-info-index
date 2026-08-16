@@ -8,35 +8,35 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:100-我的数据  ",
+      "query": "path:我的数据  ",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
     },
     {
-      "query": "path:200-我的工作  ",
+      "query": "path:我的工作  ",
       "color": {
         "a": 1,
         "rgb": 14069084
       }
     },
     {
-      "query": "path:300-我的工具  ",
+      "query": "path:我的工具  ",
       "color": {
         "a": 1,
         "rgb": 11392604
       }
     },
     {
-      "query": "path:400-我的知识  ",
+      "query": "path:我的知识  ",
       "color": {
         "a": 1,
         "rgb": 6084188
       }
     },
     {
-      "query": "path:500-我的规范  ",
+      "query": "path:我的规范  ",
       "color": {
         "a": 1,
         "rgb": 6084269
@@ -54,5 +54,5 @@
   "linkStrength": 0.529040404040404,
   "linkDistance": 80,
   "scale": 0.09392927902846895,
-  "close": false
+  "close": true
 }
