@@ -1,5 +1,7 @@
 # wealth-info-index · Wealth Information Index
 
+**English** | [中文](README.zh.md)
+
 **Wealth (Wei Er Si)** · One-person-firm **information index library**.
 
 **License: MIT**
@@ -37,10 +39,10 @@ wealth-info-index/
 ├── README.md              ← This file (English usage guide)
 ├── README.zh.md           ← Chinese usage guide
 ├── 000-主页.md            ← Global entry (navigation home)
-├── 100-我的数据/          ← Local data map + tooling + setup summary
-├── 200-我的工作/          ← Work log, current projects
-├── 300-我的工具/          ← skill + DeepSeek Harness index
-├── 400-我的知识/          ← Knowledge index (pointers only)
+├── 我的数据/          ← Local data map + tooling + setup summary
+├── 我的工作/          ← Work log, current projects
+├── 我的工具/          ← skill + DeepSeek Harness index
+├── 我的知识/          ← Knowledge index (pointers only)
 │   └── 信息索引/          ← ★ Topic index: authoritative sources + links
 │       ├── _索引.md       ←   Navigation home for topic index
 │       ├── 审计-知识.md   ←   Audit topic → source pointer
@@ -51,7 +53,7 @@ wealth-info-index/
 │       ├── 国资-知识.md   ←   SOE-assets topic → source pointer
 │       ├── 能源-知识.md   ←   Energy topic → source pointer
 │       └── A股数据工具.md ←   Neutral tooling (free A-share data)
-├── 500-我的规范/          ← Working norms / execution rules
+├── 我的规范/          ← Working norms / execution rules
 └── scripts/               ← Neutral tooling scripts
     ├── fetch_a股.py       ←   Free A-share history (multi-source fallback)
     └── akshare_test.py    ←   Multi-endpoint validation
