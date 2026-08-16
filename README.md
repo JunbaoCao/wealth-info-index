@@ -2,17 +2,17 @@
 
 **English** | [中文](README.zh.md)
 
-**Wealth (Wei Er Si)** · an open-source **information index library**.
+**Wealth (Shanxi Wei Er Si Certified Public Accountants (General Partnership))** · an open-source **information index library**.
 
 **License: MIT**
 
-> This is Wealth's information-index library. It does **not** store policy, regulatory, or any sensitive document content. It keeps only **pointers and links** — telling you *where* a given piece of information lives (official sources, local data areas) and *how to find it*. Everything substantive stays at its authoritative origin; this repo only navigates.
+> This is the **information index library** of Shanxi Wei Er Si Certified Public Accountants (General Partnership). It does **not** store any policy, regulatory, or sensitive document content. It keeps only **pointers and links** — telling you *where* a given piece of information lives (official sources, local data areas) and *how to find it*. Everything substantive stays at its authoritative origin; this repo only navigates.
 
 ---
 
 ## What it is
 
-An **index of where information lives** for the Wealth firm. Its job is **navigation**: given a topic, point to the authoritative source and the local archive — never to reproduce the material here.
+An **index of where information lives** for the firm. Its job is **navigation**: given a topic, point to the authoritative source and the local archive — never to reproduce the material here.
 
 **Core idea: index the location, not the content.**
 
@@ -43,20 +43,20 @@ wealth-info-index/
 ├── 我的工作/          ← Work log, current projects
 ├── 我的工具/          ← skill + DeepSeek Harness index
 ├── 我的知识/          ← Knowledge index (pointers only)
-│   └── 信息索引/          ← ★ Topic index: authoritative sources + links
-│       ├── _索引.md       ←   Navigation home for topic index
-│       ├── 审计-知识.md   ←   Audit topic → source pointer
-│       ├── 会计-知识.md   ←   Accounting topic → source pointer
-│       ├── 税务-知识.md   ←   Tax topic → source pointer
-│       ├── 法律-知识.md   ←   Law topic → source pointer
-│       ├── 合规-知识.md   ←   Compliance topic → source pointer
-│       ├── 国资-知识.md   ←   SOE-assets topic → source pointer
-│       ├── 能源-知识.md   ←   Energy topic → source pointer
-│       └── A股数据工具.md ←   Neutral tooling (free A-share data)
+│   └── 信息索引/        ← ★ Topic index: authoritative sources + links
+│       ├── _索引.md     ←   Navigation home for topic index
+│       ├── 审计-知识.md ←   Audit topic → source pointer
+│       ├── 会计-知识.md ←   Accounting topic → source pointer
+│       ├── 税务-知识.md ←   Tax topic → source pointer
+│       ├── 法律-知识.md ←   Law topic → source pointer
+│       ├── 合规-知识.md ←   Compliance topic → source pointer
+│       ├── 国资-知识.md ←   SOE-assets topic → source pointer
+│       ├── 能源-知识.md ←   Energy topic → source pointer
+│       └── A股数据工具.md ← Neutral tooling (free A-share data)
 ├── 我的规范/          ← Working norms / execution rules
-└── scripts/               ← Neutral tooling scripts
-    ├── fetch_a股.py       ←   Free A-share history (multi-source fallback)
-    └── akshare_test.py    ←   Multi-endpoint validation
+└── scripts/             ← Neutral tooling scripts
+    ├── fetch_a股.py     ←   Free A-share history (multi-source fallback)
+    └── akshare_test.py  ←   Multi-endpoint validation
 ```
 
 ---
@@ -76,7 +76,7 @@ pip install akshare pandas
 python scripts/fetch_a股.py 600519 20250101 20260814 qfq    # auto-select available source
 ```
 
-Output CSV to `data/` and print the first 5 rows)Skip.
+Output CSV to `data/` and print the first 5 rows.
 
 ---
 
@@ -90,4 +90,4 @@ The free A-share historical-data script in this repo is built on **akshare** —
 
 ---
 
-*Crafted by Wealth (Wei Er Si) as a clean information index — navigate the location, never the content.*
+*Crafted by Wealth (Shanxi Wei Er Si Certified Public Accountants (General Partnership)) as a clean information index — navigate the location, never the content.*
